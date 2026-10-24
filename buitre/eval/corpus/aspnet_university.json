@@ -1,0 +1,20 @@
+{
+  "url": "https://rtu.example.ac.in/Admission.aspx",
+  "main_paragraphs": [
+    "Admission to the Master of Technology programmes for the session 2026 will be conducted through the centralised counselling process announced by the university.",
+    "Candidates who have appeared in the qualifying examination and are awaiting results may also apply, subject to submitting proof of passing before 31/07/2026.",
+    "The last date for submission of the online application form along with the prescribed fee is 30/06/2026 and no extension will be granted under any circumstances.",
+    "Hostel accommodation is limited and will be allotted strictly on merit; applicants must submit the separate hostel form together with the admission application.",
+    "Phone: 0161 496 0000",
+    "Email: admissions@rtu.ac.in"
+  ],
+  "must_not_contain": [
+    "Best viewed in Internet Explorer",
+    "Welcome to Regional Technical University - Admissions Open",
+    "Visitors"
+  ],
+  "emails": [
+    "admissions@rtu.ac.in"
+  ],
+  "page_type": "generic"
+}

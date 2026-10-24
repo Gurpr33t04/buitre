@@ -1,0 +1,24 @@
+{
+  "url": "https://runi.org/contact",
+  "main_paragraphs": [
+    "Our admissions office is open Monday to Friday from nine in the morning until four in the afternoon, and visitors are welcome without an appointment.",
+    "For questions about scholarships, fees or hostel allotment please write to the relevant office below and expect a reply within three working days.",
+    "Admissions: admissions@runi.org",
+    "Registrar: registrar@runi.org",
+    "Scholarships: scholarships [at] runi [dot] org",
+    "Call us on +91 161 2345678"
+  ],
+  "must_not_contain": [
+    "logo@2x"
+  ],
+  "emails": [
+    "admissions@runi.org",
+    "registrar@runi.org",
+    "scholarships@runi.org"
+  ],
+  "phones": [
+    "+91 161 2345678"
+  ],
+  "page_type": "contact",
+  "language": "en"
+}

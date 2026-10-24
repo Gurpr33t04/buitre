@@ -1,0 +1,21 @@
+# Buitre: everything needed to run, test and use all features.
+#   pip install -r requirements.txt     (full environment)
+#   pip install -e .                    (also installs the `buitre` command)
+# Minimal runtime install without the optional extras: `pip install .`
+
+# --- core ---
+httpx[socks]>=0.26
+beautifulsoup4>=4.12
+lxml>=4.9
+pydantic>=2
+tldextract>=5
+phonenumbers>=8
+charset-normalizer>=3
+playwright>=1.40
+
+# --- optional features ---
+trafilatura>=1.8     # second-opinion main-content extractor
+pypdf>=4             # --documents (PDF text)
+
+# --- testing ---
+pytest>=7

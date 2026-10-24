@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "buitre"
+version = "0.1.0"
+description = "Adaptive web crawler and information extractor for old and modern pages, with onion support"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Gurpreet" }]
+keywords = ["crawler", "scraper", "tor", "onion", "web-scraping", "information-extraction"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Internet :: WWW/HTTP :: Indexing/Search",
+]
+dependencies = [
+    "httpx[socks]>=0.26",
+    "beautifulsoup4>=4.12",
+    "lxml>=4.9",
+    "pydantic>=2",
+    "tldextract>=5",
+    "phonenumbers>=8",
+    "charset-normalizer>=3",
+    "playwright>=1.40",
+]
+
+[project.optional-dependencies]
+# Second-opinion extractor: blocks both Buitre and trafilatura select score higher.
+quality = ["trafilatura>=1.8"]
+# --documents: read PDFs.
+documents = ["pypdf>=4"]
+all = ["trafilatura>=1.8", "pypdf>=4"]
+dev = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/Gurpr33t04/buitre"
+Issues = "https://github.com/Gurpr33t04/buitre/issues"
+
+[project.scripts]
+buitre = "buitre.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["buitre*"]
+
+[tool.setuptools.package-data]
+"buitre.eval" = ["corpus/*.html", "corpus/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

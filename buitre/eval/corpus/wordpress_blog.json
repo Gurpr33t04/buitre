@@ -1,0 +1,24 @@
+{
+  "url": "https://example.com/wordpress_blog",
+  "main_paragraphs": [
+    "Our sourdough starter is fed twice a day with equal parts flour and water, and we keep it at a steady twenty-five degrees all year round.",
+    "After mixing, the dough rests for thirty minutes before a series of four gentle folds spread across the next two hours of bulk fermentation.",
+    "Shaping is the step most home bakers rush, but a tight surface tension is what gives the finished loaf its tall, open and slightly glossy crumb.",
+    "We bake in preheated cast iron pots at two hundred and forty degrees, lids on for twenty minutes and lids off for another twenty-five minutes.",
+    "Let the bread cool completely before slicing, because the crumb is still setting and cutting early will leave it gummy and dense in the middle."
+  ],
+  "must_not_contain": [
+    "Great recipe, I tried it",
+    "Get fresh recipes delivered",
+    "Share this",
+    "Proudly powered",
+    "Leave a comment",
+    "Recent Posts"
+  ],
+  "emails": [
+    "hello@citybakery.com"
+  ],
+  "page_type": "article",
+  "published_at": "2026-02-11",
+  "language": "en"
+}

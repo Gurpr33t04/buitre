@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+        parser: ["lxml", "html.parser"]
+
+    env:
+      BUITRE_PARSER: ${{ matrix.parser }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[all,dev]"
+
+      # The suite fakes the browser and network: no Chromium or Tor needed.
+      - name: Tests
+        run: pytest -q
+
+      - name: Extraction quality gate
+        run: python -m buitre.eval --min-f1 0.95 --max-junk 0.02

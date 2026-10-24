@@ -1,0 +1,9 @@
+{
+  "url": "https://portal.example.ac.in/secureptulogin.aspx",
+  "main_paragraphs": [],
+  "must_not_contain": [
+    "Forgot your password"
+  ],
+  "emails": [],
+  "page_type": "login"
+}

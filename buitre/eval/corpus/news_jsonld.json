@@ -1,0 +1,18 @@
+{
+  "url": "https://example.com/news_jsonld",
+  "main_paragraphs": [
+    "Researchers at the national laboratory reported on Monday that a new battery design retained ninety percent of its capacity after two thousand charge cycles.",
+    "The team replaced the liquid electrolyte with a solid ceramic layer, which they say removes the fire risk that has slowed adoption of high energy cells.",
+    "Independent experts cautioned that laboratory results often fail to scale, and that manufacturing costs will decide whether the design reaches vehicles."
+  ],
+  "must_not_contain": [
+    "We use cookies",
+    "Advertisement:",
+    "Related stories",
+    "All rights reserved"
+  ],
+  "emails": [],
+  "page_type": "article",
+  "published_at": "2026-05-20",
+  "language": "en"
+}

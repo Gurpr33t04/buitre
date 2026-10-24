@@ -1,0 +1,7 @@
+# Normalise line endings across Windows / Linux / macOS
+* text=auto eol=lf
+
+# The evaluation corpus is test data, not source: keep it out of GitHub's
+# language statistics so the repo shows as Python.
+buitre/eval/corpus/** linguist-vendored
+buitre/tests/fixtures/** linguist-vendored

@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Playwright
+.playwright/
+playwright-report/
+test-results/
+
+# Crawl results and state: scraped third-party data must not be committed.
+# Keep it in output/ or pass explicit paths outside the repository.
+/output/
+/*.json
+*.jsonl
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+
+# Secrets (Tor control password, tokens)
+.env
+.env.*
+*.pem
+*.key
+torrc.local
+
+# ...but the evaluation corpus and examples are intentional test data
+!buitre/eval/corpus/*.json
+!examples/*.json

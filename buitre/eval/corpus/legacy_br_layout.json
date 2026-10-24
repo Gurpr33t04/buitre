@@ -1,0 +1,16 @@
+{
+  "url": "https://physics.example.edu/index.html",
+  "main_paragraphs": [
+    "The Department of Physics was established in nineteen sixty-two and has since grown into one of the leading centres for condensed matter research in the region.",
+    "Our faculty supervise doctoral students across optics, solid state physics and computational methods, with several joint projects funded by national agencies.",
+    "The department library holds over eleven thousand volumes and subscribes to forty journals, and is open to all registered students from nine until five."
+  ],
+  "must_not_contain": [
+    "Sign our guestbook",
+    "Last updated"
+  ],
+  "emails": [
+    "webmaster@physics.example.edu"
+  ],
+  "page_type": "home"
+}

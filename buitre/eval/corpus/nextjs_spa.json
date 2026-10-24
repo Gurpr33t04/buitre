@@ -1,0 +1,14 @@
+{
+  "url": "https://example.com/news/transport",
+  "main_paragraphs": [
+    "The city council approved the new transport plan on Tuesday after months of public consultation, committee hearings and several rounds of revisions.",
+    "Construction of the first tram line is expected to begin next spring and to be completed within three years, according to the project office.",
+    "Officials said fares would remain unchanged for the first year, and that a discounted pass for students and pensioners will be introduced at launch."
+  ],
+  "must_not_contain": [
+    "leading-tight",
+    "council-approves-the-new"
+  ],
+  "emails": [],
+  "language": "en"
+}

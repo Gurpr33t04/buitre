@@ -1,0 +1,11 @@
+{
+  "url": "https://shop.example/glassware",
+  "main_paragraphs": [
+    "Browse our full catalogue of laboratory glassware, from beakers and flasks to burettes, with free delivery on all orders above five thousand rupees."
+  ],
+  "must_not_contain": [
+    "Borosilicate beaker"
+  ],
+  "emails": [],
+  "page_type": "listing"
+}
