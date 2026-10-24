@@ -190,7 +190,7 @@ The authors accept no liability for how the software is used.
 ## Contributing
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/buitre.git && cd buitre
+git clone https://github.com/Gurpr33t04/buitre.git && cd buitre
 python -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt && pip install -e .
 pytest -q && python -m buitre.eval --min-f1 0.95 --max-junk 0.02
