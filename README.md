@@ -10,10 +10,6 @@ pages**: table layouts, ASP.NET, WordPress, JavaScript apps and PDFs, on the
 surface web and over Tor. It keeps the useful content, contacts and metadata
 and leaves the navigation, banners, comments and template text behind.
 
-> **Beta (0.1).** The core is tested (187 tests) and measured against a
-> built-in evaluation corpus, but it has had limited testing on real-world
-> sites. Please report what breaks.
-
 ## Contents
 
 [Install](#install) · [Quick start](#quick-start) · [Command line](#command-line) ·
