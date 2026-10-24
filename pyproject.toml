@@ -53,4 +53,5 @@ include = ["buitre*"]
 "buitre.eval" = ["corpus/*.html", "corpus/*.json"]
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+pythonpath = ["."]
+testpath = ["tests"]
